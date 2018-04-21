@@ -29,7 +29,7 @@ function anologin(cb){
 
 function login(opts){
     wx.request({
-        url: 'https://tls.qcloud.com/getUserSig', //仅为示例，并非真实的接口地址
+        url: 'https://tls.qcloud.com/getusersig', //仅为示例，并非真实的接口地址
         data: {
             "tmpsig": opts.TmpSig,
             "identifier": opts.Identifier,
